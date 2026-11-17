@@ -1,0 +1,34 @@
+[
+  {
+    "id": "a1",
+    "team": "east",
+    "start": "2026-10-01",
+    "end": "2026-10-08",
+    "arm": "usual",
+    "draw": "d1"
+  },
+  {
+    "id": "a2",
+    "team": "east",
+    "start": "2026-10-08",
+    "end": "2026-10-15",
+    "arm": "trained",
+    "draw": "d1"
+  },
+  {
+    "id": "a3",
+    "team": "west",
+    "start": "2026-10-01",
+    "end": "2026-10-08",
+    "arm": "trained",
+    "draw": "d1"
+  },
+  {
+    "id": "a4",
+    "team": "west",
+    "start": "2026-10-08",
+    "end": "2026-10-15",
+    "arm": "usual",
+    "draw": "d1"
+  }
+]

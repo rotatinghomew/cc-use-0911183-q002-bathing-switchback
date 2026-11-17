@@ -1,0 +1,12 @@
+[
+  {
+    "id": "north",
+    "training_cents": 80000,
+    "service_slots": 40
+  },
+  {
+    "id": "south",
+    "training_cents": 60000,
+    "service_slots": 35
+  }
+]

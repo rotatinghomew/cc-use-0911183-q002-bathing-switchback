@@ -1,0 +1,52 @@
+[
+  {
+    "id": "s1",
+    "team": "east",
+    "resident": "r1",
+    "date": "2026-10-03",
+    "participants": [
+      "p1"
+    ],
+    "status": "completed",
+    "minutes": 40,
+    "score": 4
+  },
+  {
+    "id": "s2",
+    "team": "east",
+    "resident": "r1",
+    "date": "2026-10-09",
+    "participants": [
+      "p1",
+      "p3"
+    ],
+    "status": "interrupted",
+    "minutes": 20,
+    "score": null
+  },
+  {
+    "id": "s3",
+    "team": "west",
+    "resident": "r2",
+    "date": "2026-10-04",
+    "participants": [
+      "p3"
+    ],
+    "status": "completed",
+    "minutes": 50,
+    "score": 5
+  },
+  {
+    "id": "s4",
+    "team": "west",
+    "resident": "r1",
+    "date": "2026-10-10",
+    "participants": [
+      "p3",
+      "p1"
+    ],
+    "status": "completed",
+    "minutes": 45,
+    "score": 3
+  }
+]

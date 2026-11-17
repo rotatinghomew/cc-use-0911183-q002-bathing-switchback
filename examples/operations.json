@@ -1,0 +1,8589 @@
+{
+  "candidates": [
+    {
+      "id": "team0",
+      "training_cents": 60000,
+      "service_slots": 40
+    },
+    {
+      "id": "team1",
+      "training_cents": 65000,
+      "service_slots": 41
+    },
+    {
+      "id": "team2",
+      "training_cents": 70000,
+      "service_slots": 42
+    },
+    {
+      "id": "team3",
+      "training_cents": 75000,
+      "service_slots": 43
+    },
+    {
+      "id": "team4",
+      "training_cents": 80000,
+      "service_slots": 44
+    },
+    {
+      "id": "team5",
+      "training_cents": 85000,
+      "service_slots": 45
+    },
+    {
+      "id": "team6",
+      "training_cents": 90000,
+      "service_slots": 46
+    },
+    {
+      "id": "team7",
+      "training_cents": 95000,
+      "service_slots": 47
+    }
+  ],
+  "courses": [
+    {
+      "id": "course0",
+      "fixed_cents": 20000,
+      "hour_cents": 3000
+    },
+    {
+      "id": "course1",
+      "fixed_cents": 20000,
+      "hour_cents": 3000
+    },
+    {
+      "id": "course2",
+      "fixed_cents": 20000,
+      "hour_cents": 3000
+    },
+    {
+      "id": "course3",
+      "fixed_cents": 20000,
+      "hour_cents": 3000
+    },
+    {
+      "id": "course4",
+      "fixed_cents": 20000,
+      "hour_cents": 3000
+    },
+    {
+      "id": "course5",
+      "fixed_cents": 20000,
+      "hour_cents": 3000
+    },
+    {
+      "id": "course6",
+      "fixed_cents": 20000,
+      "hour_cents": 3000
+    },
+    {
+      "id": "course7",
+      "fixed_cents": 20000,
+      "hour_cents": 3000
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att0-0",
+      "course": "course0",
+      "person": "worker0-0",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att0-1",
+      "course": "course0",
+      "person": "worker0-1",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att0-2",
+      "course": "course0",
+      "person": "worker0-2",
+      "attended": false,
+      "hours": 0
+    },
+    {
+      "id": "att1-0",
+      "course": "course1",
+      "person": "worker1-0",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att1-1",
+      "course": "course1",
+      "person": "worker1-1",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att1-2",
+      "course": "course1",
+      "person": "worker1-2",
+      "attended": false,
+      "hours": 0
+    },
+    {
+      "id": "att2-0",
+      "course": "course2",
+      "person": "worker2-0",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att2-1",
+      "course": "course2",
+      "person": "worker2-1",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att2-2",
+      "course": "course2",
+      "person": "worker2-2",
+      "attended": false,
+      "hours": 0
+    },
+    {
+      "id": "att3-0",
+      "course": "course3",
+      "person": "worker3-0",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att3-1",
+      "course": "course3",
+      "person": "worker3-1",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att3-2",
+      "course": "course3",
+      "person": "worker3-2",
+      "attended": false,
+      "hours": 0
+    },
+    {
+      "id": "att4-0",
+      "course": "course4",
+      "person": "worker4-0",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att4-1",
+      "course": "course4",
+      "person": "worker4-1",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att4-2",
+      "course": "course4",
+      "person": "worker4-2",
+      "attended": false,
+      "hours": 0
+    },
+    {
+      "id": "att5-0",
+      "course": "course5",
+      "person": "worker5-0",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att5-1",
+      "course": "course5",
+      "person": "worker5-1",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att5-2",
+      "course": "course5",
+      "person": "worker5-2",
+      "attended": false,
+      "hours": 0
+    },
+    {
+      "id": "att6-0",
+      "course": "course6",
+      "person": "worker6-0",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att6-1",
+      "course": "course6",
+      "person": "worker6-1",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att6-2",
+      "course": "course6",
+      "person": "worker6-2",
+      "attended": false,
+      "hours": 0
+    },
+    {
+      "id": "att7-0",
+      "course": "course7",
+      "person": "worker7-0",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att7-1",
+      "course": "course7",
+      "person": "worker7-1",
+      "attended": true,
+      "hours": 4
+    },
+    {
+      "id": "att7-2",
+      "course": "course7",
+      "person": "worker7-2",
+      "attended": false,
+      "hours": 0
+    }
+  ],
+  "assignments": [
+    {
+      "id": "alloc0-0",
+      "team": "team0",
+      "start": "2026-07-06",
+      "end": "2026-07-13",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc0-1",
+      "team": "team0",
+      "start": "2026-07-13",
+      "end": "2026-07-20",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc0-2",
+      "team": "team0",
+      "start": "2026-07-20",
+      "end": "2026-07-27",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc0-3",
+      "team": "team0",
+      "start": "2026-07-27",
+      "end": "2026-08-03",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc0-4",
+      "team": "team0",
+      "start": "2026-08-03",
+      "end": "2026-08-10",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc0-5",
+      "team": "team0",
+      "start": "2026-08-10",
+      "end": "2026-08-17",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc0-6",
+      "team": "team0",
+      "start": "2026-08-17",
+      "end": "2026-08-24",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc0-7",
+      "team": "team0",
+      "start": "2026-08-24",
+      "end": "2026-08-31",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc1-0",
+      "team": "team1",
+      "start": "2026-07-06",
+      "end": "2026-07-13",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc1-1",
+      "team": "team1",
+      "start": "2026-07-13",
+      "end": "2026-07-20",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc1-2",
+      "team": "team1",
+      "start": "2026-07-20",
+      "end": "2026-07-27",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc1-3",
+      "team": "team1",
+      "start": "2026-07-27",
+      "end": "2026-08-03",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc1-4",
+      "team": "team1",
+      "start": "2026-08-03",
+      "end": "2026-08-10",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc1-5",
+      "team": "team1",
+      "start": "2026-08-10",
+      "end": "2026-08-17",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc1-6",
+      "team": "team1",
+      "start": "2026-08-17",
+      "end": "2026-08-24",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc1-7",
+      "team": "team1",
+      "start": "2026-08-24",
+      "end": "2026-08-31",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc2-0",
+      "team": "team2",
+      "start": "2026-07-06",
+      "end": "2026-07-13",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc2-1",
+      "team": "team2",
+      "start": "2026-07-13",
+      "end": "2026-07-20",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc2-2",
+      "team": "team2",
+      "start": "2026-07-20",
+      "end": "2026-07-27",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc2-3",
+      "team": "team2",
+      "start": "2026-07-27",
+      "end": "2026-08-03",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc2-4",
+      "team": "team2",
+      "start": "2026-08-03",
+      "end": "2026-08-10",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc2-5",
+      "team": "team2",
+      "start": "2026-08-10",
+      "end": "2026-08-17",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc2-6",
+      "team": "team2",
+      "start": "2026-08-17",
+      "end": "2026-08-24",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc2-7",
+      "team": "team2",
+      "start": "2026-08-24",
+      "end": "2026-08-31",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc3-0",
+      "team": "team3",
+      "start": "2026-07-06",
+      "end": "2026-07-13",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc3-1",
+      "team": "team3",
+      "start": "2026-07-13",
+      "end": "2026-07-20",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc3-2",
+      "team": "team3",
+      "start": "2026-07-20",
+      "end": "2026-07-27",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc3-3",
+      "team": "team3",
+      "start": "2026-07-27",
+      "end": "2026-08-03",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc3-4",
+      "team": "team3",
+      "start": "2026-08-03",
+      "end": "2026-08-10",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc3-5",
+      "team": "team3",
+      "start": "2026-08-10",
+      "end": "2026-08-17",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc3-6",
+      "team": "team3",
+      "start": "2026-08-17",
+      "end": "2026-08-24",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc3-7",
+      "team": "team3",
+      "start": "2026-08-24",
+      "end": "2026-08-31",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc4-0",
+      "team": "team4",
+      "start": "2026-07-06",
+      "end": "2026-07-13",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc4-1",
+      "team": "team4",
+      "start": "2026-07-13",
+      "end": "2026-07-20",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc4-2",
+      "team": "team4",
+      "start": "2026-07-20",
+      "end": "2026-07-27",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc4-3",
+      "team": "team4",
+      "start": "2026-07-27",
+      "end": "2026-08-03",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc4-4",
+      "team": "team4",
+      "start": "2026-08-03",
+      "end": "2026-08-10",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc4-5",
+      "team": "team4",
+      "start": "2026-08-10",
+      "end": "2026-08-17",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc4-6",
+      "team": "team4",
+      "start": "2026-08-17",
+      "end": "2026-08-24",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc4-7",
+      "team": "team4",
+      "start": "2026-08-24",
+      "end": "2026-08-31",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc5-0",
+      "team": "team5",
+      "start": "2026-07-06",
+      "end": "2026-07-13",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc5-1",
+      "team": "team5",
+      "start": "2026-07-13",
+      "end": "2026-07-20",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc5-2",
+      "team": "team5",
+      "start": "2026-07-20",
+      "end": "2026-07-27",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc5-3",
+      "team": "team5",
+      "start": "2026-07-27",
+      "end": "2026-08-03",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc5-4",
+      "team": "team5",
+      "start": "2026-08-03",
+      "end": "2026-08-10",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc5-5",
+      "team": "team5",
+      "start": "2026-08-10",
+      "end": "2026-08-17",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc5-6",
+      "team": "team5",
+      "start": "2026-08-17",
+      "end": "2026-08-24",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc5-7",
+      "team": "team5",
+      "start": "2026-08-24",
+      "end": "2026-08-31",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc6-0",
+      "team": "team6",
+      "start": "2026-07-06",
+      "end": "2026-07-13",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc6-1",
+      "team": "team6",
+      "start": "2026-07-13",
+      "end": "2026-07-20",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc6-2",
+      "team": "team6",
+      "start": "2026-07-20",
+      "end": "2026-07-27",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc6-3",
+      "team": "team6",
+      "start": "2026-07-27",
+      "end": "2026-08-03",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc6-4",
+      "team": "team6",
+      "start": "2026-08-03",
+      "end": "2026-08-10",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc6-5",
+      "team": "team6",
+      "start": "2026-08-10",
+      "end": "2026-08-17",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc6-6",
+      "team": "team6",
+      "start": "2026-08-17",
+      "end": "2026-08-24",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc6-7",
+      "team": "team6",
+      "start": "2026-08-24",
+      "end": "2026-08-31",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc7-0",
+      "team": "team7",
+      "start": "2026-07-06",
+      "end": "2026-07-13",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc7-1",
+      "team": "team7",
+      "start": "2026-07-13",
+      "end": "2026-07-20",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc7-2",
+      "team": "team7",
+      "start": "2026-07-20",
+      "end": "2026-07-27",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc7-3",
+      "team": "team7",
+      "start": "2026-07-27",
+      "end": "2026-08-03",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc7-4",
+      "team": "team7",
+      "start": "2026-08-03",
+      "end": "2026-08-10",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc7-5",
+      "team": "team7",
+      "start": "2026-08-10",
+      "end": "2026-08-17",
+      "arm": "usual",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc7-6",
+      "team": "team7",
+      "start": "2026-08-17",
+      "end": "2026-08-24",
+      "arm": "trained",
+      "draw": "rotation-july"
+    },
+    {
+      "id": "alloc7-7",
+      "team": "team7",
+      "start": "2026-08-24",
+      "end": "2026-08-31",
+      "arm": "usual",
+      "draw": "rotation-july"
+    }
+  ],
+  "services": [
+    {
+      "id": "service0-0-0",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-07-06",
+      "participants": [
+        "worker0-0",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": 3
+    },
+    {
+      "id": "service0-0-1",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-07-07",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 37,
+      "score": null
+    },
+    {
+      "id": "service0-0-2",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-07-08",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "completed",
+      "minutes": 29,
+      "score": 3
+    },
+    {
+      "id": "service0-0-3",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-07-09",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 56,
+      "score": 3
+    },
+    {
+      "id": "service0-0-4",
+      "team": "team0",
+      "resident": "older4",
+      "date": "2026-07-10",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 47,
+      "score": 3
+    },
+    {
+      "id": "service0-0-5",
+      "team": "team0",
+      "resident": "older5",
+      "date": "2026-07-11",
+      "participants": [
+        "worker0-2",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 20,
+      "score": 4
+    },
+    {
+      "id": "service0-0-6",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-07-12",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "interrupted",
+      "minutes": 61,
+      "score": 3
+    },
+    {
+      "id": "service0-0-7",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-07-06",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 30,
+      "score": 5
+    },
+    {
+      "id": "service0-0-8",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-07-07",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "completed",
+      "minutes": 39,
+      "score": 4
+    },
+    {
+      "id": "service0-0-9",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-07-08",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 3
+    },
+    {
+      "id": "service0-1-0",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-07-13",
+      "participants": [
+        "worker0-0",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": 2
+    },
+    {
+      "id": "service0-1-1",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-07-14",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 56,
+      "score": 3
+    },
+    {
+      "id": "service0-1-2",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-07-15",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "completed",
+      "minutes": 37,
+      "score": 4
+    },
+    {
+      "id": "service0-1-3",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-07-16",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 4
+    },
+    {
+      "id": "service0-1-4",
+      "team": "team0",
+      "resident": "older4",
+      "date": "2026-07-17",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": 5
+    },
+    {
+      "id": "service0-1-5",
+      "team": "team0",
+      "resident": "older5",
+      "date": "2026-07-18",
+      "participants": [
+        "worker0-2",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 20,
+      "score": 4
+    },
+    {
+      "id": "service0-1-6",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-07-19",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 26,
+      "score": 5
+    },
+    {
+      "id": "service0-1-7",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-07-13",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 42,
+      "score": 2
+    },
+    {
+      "id": "service0-1-8",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-07-14",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "completed",
+      "minutes": 25,
+      "score": 5
+    },
+    {
+      "id": "service0-1-9",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-07-15",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "interrupted",
+      "minutes": 25,
+      "score": 3
+    },
+    {
+      "id": "service0-2-0",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-07-20",
+      "participants": [
+        "worker0-0",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 30,
+      "score": 4
+    },
+    {
+      "id": "service0-2-1",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-07-21",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 40,
+      "score": 4
+    },
+    {
+      "id": "service0-2-2",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-07-22",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": 3
+    },
+    {
+      "id": "service0-2-3",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-07-23",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": 2
+    },
+    {
+      "id": "service0-2-4",
+      "team": "team0",
+      "resident": "older4",
+      "date": "2026-07-24",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 2
+    },
+    {
+      "id": "service0-2-5",
+      "team": "team0",
+      "resident": "older5",
+      "date": "2026-07-25",
+      "participants": [
+        "worker0-2",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": 5
+    },
+    {
+      "id": "service0-2-6",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-07-26",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "interrupted",
+      "minutes": 52,
+      "score": 3
+    },
+    {
+      "id": "service0-2-7",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-07-20",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 47,
+      "score": 2
+    },
+    {
+      "id": "service0-2-8",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-07-21",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "completed",
+      "minutes": 48,
+      "score": 3
+    },
+    {
+      "id": "service0-2-9",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-07-22",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": 4
+    },
+    {
+      "id": "service0-3-0",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-07-27",
+      "participants": [
+        "worker0-0",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 38,
+      "score": 2
+    },
+    {
+      "id": "service0-3-1",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-07-28",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 25,
+      "score": 2
+    },
+    {
+      "id": "service0-3-2",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-07-29",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "completed",
+      "minutes": 56,
+      "score": 4
+    },
+    {
+      "id": "service0-3-3",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-07-30",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 40,
+      "score": 4
+    },
+    {
+      "id": "service0-3-4",
+      "team": "team0",
+      "resident": "older4",
+      "date": "2026-07-31",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 64,
+      "score": 5
+    },
+    {
+      "id": "service0-3-5",
+      "team": "team0",
+      "resident": "older5",
+      "date": "2026-08-01",
+      "participants": [
+        "worker0-2",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 29,
+      "score": 3
+    },
+    {
+      "id": "service0-3-6",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-08-02",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 20,
+      "score": 3
+    },
+    {
+      "id": "service0-3-7",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-07-27",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 37,
+      "score": 3
+    },
+    {
+      "id": "service0-3-8",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-07-28",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "completed",
+      "minutes": 57,
+      "score": 3
+    },
+    {
+      "id": "service0-3-9",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-07-29",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 60,
+      "score": 2
+    },
+    {
+      "id": "service0-4-0",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-08-03",
+      "participants": [
+        "worker0-0",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 45,
+      "score": 4
+    },
+    {
+      "id": "service0-4-1",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-08-04",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 46,
+      "score": 4
+    },
+    {
+      "id": "service0-4-2",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-08-05",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "interrupted",
+      "minutes": 54,
+      "score": null
+    },
+    {
+      "id": "service0-4-3",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-08-06",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": 5
+    },
+    {
+      "id": "service0-4-4",
+      "team": "team0",
+      "resident": "older4",
+      "date": "2026-08-07",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 43,
+      "score": 5
+    },
+    {
+      "id": "service0-4-5",
+      "team": "team0",
+      "resident": "older5",
+      "date": "2026-08-08",
+      "participants": [
+        "worker0-2",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": null
+    },
+    {
+      "id": "service0-4-6",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-08-09",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 44,
+      "score": 2
+    },
+    {
+      "id": "service0-4-7",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-08-03",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 48,
+      "score": null
+    },
+    {
+      "id": "service0-4-8",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-08-04",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "completed",
+      "minutes": 32,
+      "score": 4
+    },
+    {
+      "id": "service0-4-9",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-08-05",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 46,
+      "score": 3
+    },
+    {
+      "id": "service0-5-0",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-08-10",
+      "participants": [
+        "worker0-0",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 44,
+      "score": 3
+    },
+    {
+      "id": "service0-5-1",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-08-11",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 63,
+      "score": null
+    },
+    {
+      "id": "service0-5-2",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-08-12",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 2
+    },
+    {
+      "id": "service0-5-3",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-08-13",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "interrupted",
+      "minutes": 24,
+      "score": 3
+    },
+    {
+      "id": "service0-5-4",
+      "team": "team0",
+      "resident": "older4",
+      "date": "2026-08-14",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 5
+    },
+    {
+      "id": "service0-5-5",
+      "team": "team0",
+      "resident": "older5",
+      "date": "2026-08-15",
+      "participants": [
+        "worker0-2",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 40,
+      "score": 5
+    },
+    {
+      "id": "service0-5-6",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-08-16",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 43,
+      "score": null
+    },
+    {
+      "id": "service0-5-7",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-08-10",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 32,
+      "score": 5
+    },
+    {
+      "id": "service0-5-8",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-08-11",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "completed",
+      "minutes": 30,
+      "score": 5
+    },
+    {
+      "id": "service0-5-9",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-08-12",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 35,
+      "score": 4
+    },
+    {
+      "id": "service0-6-0",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-08-17",
+      "participants": [
+        "worker0-0",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 54,
+      "score": 5
+    },
+    {
+      "id": "service0-6-1",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-08-18",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": 5
+    },
+    {
+      "id": "service0-6-2",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-08-19",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "completed",
+      "minutes": 44,
+      "score": 4
+    },
+    {
+      "id": "service0-6-3",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-08-20",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 2
+    },
+    {
+      "id": "service0-6-4",
+      "team": "team0",
+      "resident": "older4",
+      "date": "2026-08-21",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 2
+    },
+    {
+      "id": "service0-6-5",
+      "team": "team0",
+      "resident": "older5",
+      "date": "2026-08-22",
+      "participants": [
+        "worker0-2",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": null
+    },
+    {
+      "id": "service0-6-6",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-08-23",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "interrupted",
+      "minutes": 46,
+      "score": 4
+    },
+    {
+      "id": "service0-6-7",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-08-17",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": 5
+    },
+    {
+      "id": "service0-6-8",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-08-18",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "interrupted",
+      "minutes": 47,
+      "score": 2
+    },
+    {
+      "id": "service0-6-9",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-08-19",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 51,
+      "score": 4
+    },
+    {
+      "id": "service0-7-0",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-08-24",
+      "participants": [
+        "worker0-0",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 39,
+      "score": 3
+    },
+    {
+      "id": "service0-7-1",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-08-25",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 24,
+      "score": 4
+    },
+    {
+      "id": "service0-7-2",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-08-26",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "completed",
+      "minutes": 30,
+      "score": 5
+    },
+    {
+      "id": "service0-7-3",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-08-27",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 41,
+      "score": null
+    },
+    {
+      "id": "service0-7-4",
+      "team": "team0",
+      "resident": "older4",
+      "date": "2026-08-28",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 46,
+      "score": 3
+    },
+    {
+      "id": "service0-7-5",
+      "team": "team0",
+      "resident": "older5",
+      "date": "2026-08-29",
+      "participants": [
+        "worker0-2",
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": 4
+    },
+    {
+      "id": "service0-7-6",
+      "team": "team0",
+      "resident": "older0",
+      "date": "2026-08-30",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 51,
+      "score": null
+    },
+    {
+      "id": "service0-7-7",
+      "team": "team0",
+      "resident": "older1",
+      "date": "2026-08-24",
+      "participants": [
+        "worker0-1"
+      ],
+      "status": "completed",
+      "minutes": 22,
+      "score": 4
+    },
+    {
+      "id": "service0-7-8",
+      "team": "team0",
+      "resident": "older2",
+      "date": "2026-08-25",
+      "participants": [
+        "worker0-2"
+      ],
+      "status": "completed",
+      "minutes": 46,
+      "score": 3
+    },
+    {
+      "id": "service0-7-9",
+      "team": "team0",
+      "resident": "older3",
+      "date": "2026-08-26",
+      "participants": [
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 2
+    },
+    {
+      "id": "service1-0-0",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-07-06",
+      "participants": [
+        "worker1-0",
+        "worker2-0"
+      ],
+      "status": "interrupted",
+      "minutes": 34,
+      "score": 5
+    },
+    {
+      "id": "service1-0-1",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-07-07",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 52,
+      "score": null
+    },
+    {
+      "id": "service1-0-2",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-07-08",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "completed",
+      "minutes": 23,
+      "score": null
+    },
+    {
+      "id": "service1-0-3",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-07-09",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 48,
+      "score": 2
+    },
+    {
+      "id": "service1-0-4",
+      "team": "team1",
+      "resident": "older4",
+      "date": "2026-07-10",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 27,
+      "score": 4
+    },
+    {
+      "id": "service1-0-5",
+      "team": "team1",
+      "resident": "older5",
+      "date": "2026-07-11",
+      "participants": [
+        "worker1-2",
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 24,
+      "score": 3
+    },
+    {
+      "id": "service1-0-6",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-07-12",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 54,
+      "score": 4
+    },
+    {
+      "id": "service1-0-7",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-07-06",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 38,
+      "score": 2
+    },
+    {
+      "id": "service1-0-8",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-07-07",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "completed",
+      "minutes": 39,
+      "score": 3
+    },
+    {
+      "id": "service1-0-9",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-07-08",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 40,
+      "score": 5
+    },
+    {
+      "id": "service1-1-0",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-07-13",
+      "participants": [
+        "worker1-0",
+        "worker2-0"
+      ],
+      "status": "interrupted",
+      "minutes": 56,
+      "score": 2
+    },
+    {
+      "id": "service1-1-1",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-07-14",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 46,
+      "score": 5
+    },
+    {
+      "id": "service1-1-2",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-07-15",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "completed",
+      "minutes": 23,
+      "score": 3
+    },
+    {
+      "id": "service1-1-3",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-07-16",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 3
+    },
+    {
+      "id": "service1-1-4",
+      "team": "team1",
+      "resident": "older4",
+      "date": "2026-07-17",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 3
+    },
+    {
+      "id": "service1-1-5",
+      "team": "team1",
+      "resident": "older5",
+      "date": "2026-07-18",
+      "participants": [
+        "worker1-2",
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 2
+    },
+    {
+      "id": "service1-1-6",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-07-19",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 30,
+      "score": 4
+    },
+    {
+      "id": "service1-1-7",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-07-13",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "interrupted",
+      "minutes": 27,
+      "score": 2
+    },
+    {
+      "id": "service1-1-8",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-07-14",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "completed",
+      "minutes": 25,
+      "score": 3
+    },
+    {
+      "id": "service1-1-9",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-07-15",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 55,
+      "score": 5
+    },
+    {
+      "id": "service1-2-0",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-07-20",
+      "participants": [
+        "worker1-0",
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 42,
+      "score": null
+    },
+    {
+      "id": "service1-2-1",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-07-21",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 48,
+      "score": 3
+    },
+    {
+      "id": "service1-2-2",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-07-22",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "completed",
+      "minutes": 64,
+      "score": 2
+    },
+    {
+      "id": "service1-2-3",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-07-23",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "interrupted",
+      "minutes": 63,
+      "score": null
+    },
+    {
+      "id": "service1-2-4",
+      "team": "team1",
+      "resident": "older4",
+      "date": "2026-07-24",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": null
+    },
+    {
+      "id": "service1-2-5",
+      "team": "team1",
+      "resident": "older5",
+      "date": "2026-07-25",
+      "participants": [
+        "worker1-2",
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 57,
+      "score": 4
+    },
+    {
+      "id": "service1-2-6",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-07-26",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 51,
+      "score": 2
+    },
+    {
+      "id": "service1-2-7",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-07-20",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 54,
+      "score": 3
+    },
+    {
+      "id": "service1-2-8",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-07-21",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "completed",
+      "minutes": 48,
+      "score": 3
+    },
+    {
+      "id": "service1-2-9",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-07-22",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 20,
+      "score": null
+    },
+    {
+      "id": "service1-3-0",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-07-27",
+      "participants": [
+        "worker1-0",
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 23,
+      "score": 2
+    },
+    {
+      "id": "service1-3-1",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-07-28",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 3
+    },
+    {
+      "id": "service1-3-2",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-07-29",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 3
+    },
+    {
+      "id": "service1-3-3",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-07-30",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "interrupted",
+      "minutes": 33,
+      "score": 2
+    },
+    {
+      "id": "service1-3-4",
+      "team": "team1",
+      "resident": "older4",
+      "date": "2026-07-31",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 65,
+      "score": 5
+    },
+    {
+      "id": "service1-3-5",
+      "team": "team1",
+      "resident": "older5",
+      "date": "2026-08-01",
+      "participants": [
+        "worker1-2",
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 63,
+      "score": 3
+    },
+    {
+      "id": "service1-3-6",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-08-02",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 55,
+      "score": 3
+    },
+    {
+      "id": "service1-3-7",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-07-27",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 44,
+      "score": 5
+    },
+    {
+      "id": "service1-3-8",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-07-28",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "completed",
+      "minutes": 38,
+      "score": 3
+    },
+    {
+      "id": "service1-3-9",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-07-29",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 49,
+      "score": 3
+    },
+    {
+      "id": "service1-4-0",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-08-03",
+      "participants": [
+        "worker1-0",
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 32,
+      "score": 3
+    },
+    {
+      "id": "service1-4-1",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-08-04",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "interrupted",
+      "minutes": 50,
+      "score": null
+    },
+    {
+      "id": "service1-4-2",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-08-05",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": null
+    },
+    {
+      "id": "service1-4-3",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-08-06",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 22,
+      "score": 5
+    },
+    {
+      "id": "service1-4-4",
+      "team": "team1",
+      "resident": "older4",
+      "date": "2026-08-07",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 64,
+      "score": null
+    },
+    {
+      "id": "service1-4-5",
+      "team": "team1",
+      "resident": "older5",
+      "date": "2026-08-08",
+      "participants": [
+        "worker1-2",
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 36,
+      "score": 3
+    },
+    {
+      "id": "service1-4-6",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-08-09",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 28,
+      "score": 2
+    },
+    {
+      "id": "service1-4-7",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-08-03",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 37,
+      "score": 5
+    },
+    {
+      "id": "service1-4-8",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-08-04",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 4
+    },
+    {
+      "id": "service1-4-9",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-08-05",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 61,
+      "score": 5
+    },
+    {
+      "id": "service1-5-0",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-08-10",
+      "participants": [
+        "worker1-0",
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 30,
+      "score": 3
+    },
+    {
+      "id": "service1-5-1",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-08-11",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 46,
+      "score": null
+    },
+    {
+      "id": "service1-5-2",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-08-12",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "completed",
+      "minutes": 52,
+      "score": 3
+    },
+    {
+      "id": "service1-5-3",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-08-13",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 49,
+      "score": 5
+    },
+    {
+      "id": "service1-5-4",
+      "team": "team1",
+      "resident": "older4",
+      "date": "2026-08-14",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 24,
+      "score": 5
+    },
+    {
+      "id": "service1-5-5",
+      "team": "team1",
+      "resident": "older5",
+      "date": "2026-08-15",
+      "participants": [
+        "worker1-2",
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 22,
+      "score": 5
+    },
+    {
+      "id": "service1-5-6",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-08-16",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 44,
+      "score": null
+    },
+    {
+      "id": "service1-5-7",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-08-10",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": 2
+    },
+    {
+      "id": "service1-5-8",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-08-11",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "completed",
+      "minutes": 27,
+      "score": 2
+    },
+    {
+      "id": "service1-5-9",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-08-12",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 2
+    },
+    {
+      "id": "service1-6-0",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-08-17",
+      "participants": [
+        "worker1-0",
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 38,
+      "score": 3
+    },
+    {
+      "id": "service1-6-1",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-08-18",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 40,
+      "score": 4
+    },
+    {
+      "id": "service1-6-2",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-08-19",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "interrupted",
+      "minutes": 38,
+      "score": 4
+    },
+    {
+      "id": "service1-6-3",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-08-20",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 65,
+      "score": 3
+    },
+    {
+      "id": "service1-6-4",
+      "team": "team1",
+      "resident": "older4",
+      "date": "2026-08-21",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": 5
+    },
+    {
+      "id": "service1-6-5",
+      "team": "team1",
+      "resident": "older5",
+      "date": "2026-08-22",
+      "participants": [
+        "worker1-2",
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 57,
+      "score": 5
+    },
+    {
+      "id": "service1-6-6",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-08-23",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "interrupted",
+      "minutes": 24,
+      "score": null
+    },
+    {
+      "id": "service1-6-7",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-08-17",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 39,
+      "score": null
+    },
+    {
+      "id": "service1-6-8",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-08-18",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "completed",
+      "minutes": 48,
+      "score": 2
+    },
+    {
+      "id": "service1-6-9",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-08-19",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 65,
+      "score": 2
+    },
+    {
+      "id": "service1-7-0",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-08-24",
+      "participants": [
+        "worker1-0",
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 40,
+      "score": 5
+    },
+    {
+      "id": "service1-7-1",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-08-25",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": 4
+    },
+    {
+      "id": "service1-7-2",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-08-26",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 3
+    },
+    {
+      "id": "service1-7-3",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-08-27",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 53,
+      "score": 3
+    },
+    {
+      "id": "service1-7-4",
+      "team": "team1",
+      "resident": "older4",
+      "date": "2026-08-28",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": 4
+    },
+    {
+      "id": "service1-7-5",
+      "team": "team1",
+      "resident": "older5",
+      "date": "2026-08-29",
+      "participants": [
+        "worker1-2",
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 32,
+      "score": null
+    },
+    {
+      "id": "service1-7-6",
+      "team": "team1",
+      "resident": "older0",
+      "date": "2026-08-30",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "interrupted",
+      "minutes": 45,
+      "score": 2
+    },
+    {
+      "id": "service1-7-7",
+      "team": "team1",
+      "resident": "older1",
+      "date": "2026-08-24",
+      "participants": [
+        "worker1-1"
+      ],
+      "status": "completed",
+      "minutes": 54,
+      "score": 5
+    },
+    {
+      "id": "service1-7-8",
+      "team": "team1",
+      "resident": "older2",
+      "date": "2026-08-25",
+      "participants": [
+        "worker1-2"
+      ],
+      "status": "completed",
+      "minutes": 60,
+      "score": 3
+    },
+    {
+      "id": "service1-7-9",
+      "team": "team1",
+      "resident": "older3",
+      "date": "2026-08-26",
+      "participants": [
+        "worker1-0"
+      ],
+      "status": "completed",
+      "minutes": 52,
+      "score": 5
+    },
+    {
+      "id": "service2-0-0",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-07-06",
+      "participants": [
+        "worker2-0",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 61,
+      "score": 2
+    },
+    {
+      "id": "service2-0-1",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-07-07",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 30,
+      "score": 2
+    },
+    {
+      "id": "service2-0-2",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-07-08",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "completed",
+      "minutes": 40,
+      "score": 2
+    },
+    {
+      "id": "service2-0-3",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-07-09",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 23,
+      "score": 5
+    },
+    {
+      "id": "service2-0-4",
+      "team": "team2",
+      "resident": "older4",
+      "date": "2026-07-10",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 32,
+      "score": 3
+    },
+    {
+      "id": "service2-0-5",
+      "team": "team2",
+      "resident": "older5",
+      "date": "2026-07-11",
+      "participants": [
+        "worker2-2",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 47,
+      "score": 4
+    },
+    {
+      "id": "service2-0-6",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-07-12",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 32,
+      "score": 3
+    },
+    {
+      "id": "service2-0-7",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-07-06",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 28,
+      "score": 5
+    },
+    {
+      "id": "service2-0-8",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-07-07",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "completed",
+      "minutes": 36,
+      "score": 3
+    },
+    {
+      "id": "service2-0-9",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-07-08",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 26,
+      "score": 2
+    },
+    {
+      "id": "service2-1-0",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-07-13",
+      "participants": [
+        "worker2-0",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 48,
+      "score": 4
+    },
+    {
+      "id": "service2-1-1",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-07-14",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": null
+    },
+    {
+      "id": "service2-1-2",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-07-15",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "completed",
+      "minutes": 56,
+      "score": null
+    },
+    {
+      "id": "service2-1-3",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-07-16",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 3
+    },
+    {
+      "id": "service2-1-4",
+      "team": "team2",
+      "resident": "older4",
+      "date": "2026-07-17",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 51,
+      "score": 2
+    },
+    {
+      "id": "service2-1-5",
+      "team": "team2",
+      "resident": "older5",
+      "date": "2026-07-18",
+      "participants": [
+        "worker2-2",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 37,
+      "score": 3
+    },
+    {
+      "id": "service2-1-6",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-07-19",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 36,
+      "score": 2
+    },
+    {
+      "id": "service2-1-7",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-07-13",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 38,
+      "score": 5
+    },
+    {
+      "id": "service2-1-8",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-07-14",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "interrupted",
+      "minutes": 22,
+      "score": 4
+    },
+    {
+      "id": "service2-1-9",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-07-15",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": 5
+    },
+    {
+      "id": "service2-2-0",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-07-20",
+      "participants": [
+        "worker2-0",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 23,
+      "score": 2
+    },
+    {
+      "id": "service2-2-1",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-07-21",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 4
+    },
+    {
+      "id": "service2-2-2",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-07-22",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "completed",
+      "minutes": 38,
+      "score": null
+    },
+    {
+      "id": "service2-2-3",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-07-23",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 49,
+      "score": null
+    },
+    {
+      "id": "service2-2-4",
+      "team": "team2",
+      "resident": "older4",
+      "date": "2026-07-24",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 20,
+      "score": null
+    },
+    {
+      "id": "service2-2-5",
+      "team": "team2",
+      "resident": "older5",
+      "date": "2026-07-25",
+      "participants": [
+        "worker2-2",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 37,
+      "score": 3
+    },
+    {
+      "id": "service2-2-6",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-07-26",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 59,
+      "score": 2
+    },
+    {
+      "id": "service2-2-7",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-07-20",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "interrupted",
+      "minutes": 32,
+      "score": 4
+    },
+    {
+      "id": "service2-2-8",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-07-21",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "completed",
+      "minutes": 22,
+      "score": 2
+    },
+    {
+      "id": "service2-2-9",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-07-22",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 4
+    },
+    {
+      "id": "service2-3-0",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-07-27",
+      "participants": [
+        "worker2-0",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 5
+    },
+    {
+      "id": "service2-3-1",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-07-28",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "interrupted",
+      "minutes": 58,
+      "score": 2
+    },
+    {
+      "id": "service2-3-2",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-07-29",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "completed",
+      "minutes": 27,
+      "score": 5
+    },
+    {
+      "id": "service2-3-3",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-07-30",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 22,
+      "score": 2
+    },
+    {
+      "id": "service2-3-4",
+      "team": "team2",
+      "resident": "older4",
+      "date": "2026-07-31",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 25,
+      "score": 2
+    },
+    {
+      "id": "service2-3-5",
+      "team": "team2",
+      "resident": "older5",
+      "date": "2026-08-01",
+      "participants": [
+        "worker2-2",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 35,
+      "score": null
+    },
+    {
+      "id": "service2-3-6",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-08-02",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 52,
+      "score": 3
+    },
+    {
+      "id": "service2-3-7",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-07-27",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 64,
+      "score": 2
+    },
+    {
+      "id": "service2-3-8",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-07-28",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "completed",
+      "minutes": 29,
+      "score": 3
+    },
+    {
+      "id": "service2-3-9",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-07-29",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "interrupted",
+      "minutes": 48,
+      "score": 5
+    },
+    {
+      "id": "service2-4-0",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-08-03",
+      "participants": [
+        "worker2-0",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 65,
+      "score": 5
+    },
+    {
+      "id": "service2-4-1",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-08-04",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": 2
+    },
+    {
+      "id": "service2-4-2",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-08-05",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 5
+    },
+    {
+      "id": "service2-4-3",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-08-06",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "interrupted",
+      "minutes": 35,
+      "score": 4
+    },
+    {
+      "id": "service2-4-4",
+      "team": "team2",
+      "resident": "older4",
+      "date": "2026-08-07",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 57,
+      "score": 5
+    },
+    {
+      "id": "service2-4-5",
+      "team": "team2",
+      "resident": "older5",
+      "date": "2026-08-08",
+      "participants": [
+        "worker2-2",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 49,
+      "score": 4
+    },
+    {
+      "id": "service2-4-6",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-08-09",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 63,
+      "score": null
+    },
+    {
+      "id": "service2-4-7",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-08-03",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 63,
+      "score": 3
+    },
+    {
+      "id": "service2-4-8",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-08-04",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "completed",
+      "minutes": 24,
+      "score": 3
+    },
+    {
+      "id": "service2-4-9",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-08-05",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "interrupted",
+      "minutes": 36,
+      "score": 3
+    },
+    {
+      "id": "service2-5-0",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-08-10",
+      "participants": [
+        "worker2-0",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 4
+    },
+    {
+      "id": "service2-5-1",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-08-11",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 23,
+      "score": 4
+    },
+    {
+      "id": "service2-5-2",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-08-12",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "completed",
+      "minutes": 65,
+      "score": null
+    },
+    {
+      "id": "service2-5-3",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-08-13",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 47,
+      "score": 5
+    },
+    {
+      "id": "service2-5-4",
+      "team": "team2",
+      "resident": "older4",
+      "date": "2026-08-14",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 46,
+      "score": 3
+    },
+    {
+      "id": "service2-5-5",
+      "team": "team2",
+      "resident": "older5",
+      "date": "2026-08-15",
+      "participants": [
+        "worker2-2",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 45,
+      "score": 4
+    },
+    {
+      "id": "service2-5-6",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-08-16",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 61,
+      "score": 3
+    },
+    {
+      "id": "service2-5-7",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-08-10",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 29,
+      "score": 5
+    },
+    {
+      "id": "service2-5-8",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-08-11",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": null
+    },
+    {
+      "id": "service2-5-9",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-08-12",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 60,
+      "score": 4
+    },
+    {
+      "id": "service2-6-0",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-08-17",
+      "participants": [
+        "worker2-0",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 63,
+      "score": 5
+    },
+    {
+      "id": "service2-6-1",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-08-18",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 47,
+      "score": 4
+    },
+    {
+      "id": "service2-6-2",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-08-19",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "completed",
+      "minutes": 29,
+      "score": 3
+    },
+    {
+      "id": "service2-6-3",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-08-20",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": 2
+    },
+    {
+      "id": "service2-6-4",
+      "team": "team2",
+      "resident": "older4",
+      "date": "2026-08-21",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 32,
+      "score": 5
+    },
+    {
+      "id": "service2-6-5",
+      "team": "team2",
+      "resident": "older5",
+      "date": "2026-08-22",
+      "participants": [
+        "worker2-2",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 28,
+      "score": 4
+    },
+    {
+      "id": "service2-6-6",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-08-23",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 49,
+      "score": 4
+    },
+    {
+      "id": "service2-6-7",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-08-17",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 45,
+      "score": 5
+    },
+    {
+      "id": "service2-6-8",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-08-18",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "interrupted",
+      "minutes": 64,
+      "score": null
+    },
+    {
+      "id": "service2-6-9",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-08-19",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 54,
+      "score": 3
+    },
+    {
+      "id": "service2-7-0",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-08-24",
+      "participants": [
+        "worker2-0",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 38,
+      "score": 2
+    },
+    {
+      "id": "service2-7-1",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-08-25",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "interrupted",
+      "minutes": 60,
+      "score": 3
+    },
+    {
+      "id": "service2-7-2",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-08-26",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "completed",
+      "minutes": 51,
+      "score": 2
+    },
+    {
+      "id": "service2-7-3",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-08-27",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 64,
+      "score": 5
+    },
+    {
+      "id": "service2-7-4",
+      "team": "team2",
+      "resident": "older4",
+      "date": "2026-08-28",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 44,
+      "score": 2
+    },
+    {
+      "id": "service2-7-5",
+      "team": "team2",
+      "resident": "older5",
+      "date": "2026-08-29",
+      "participants": [
+        "worker2-2",
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 49,
+      "score": 3
+    },
+    {
+      "id": "service2-7-6",
+      "team": "team2",
+      "resident": "older0",
+      "date": "2026-08-30",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 27,
+      "score": 2
+    },
+    {
+      "id": "service2-7-7",
+      "team": "team2",
+      "resident": "older1",
+      "date": "2026-08-24",
+      "participants": [
+        "worker2-1"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": null
+    },
+    {
+      "id": "service2-7-8",
+      "team": "team2",
+      "resident": "older2",
+      "date": "2026-08-25",
+      "participants": [
+        "worker2-2"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 2
+    },
+    {
+      "id": "service2-7-9",
+      "team": "team2",
+      "resident": "older3",
+      "date": "2026-08-26",
+      "participants": [
+        "worker2-0"
+      ],
+      "status": "completed",
+      "minutes": 37,
+      "score": 4
+    },
+    {
+      "id": "service3-0-0",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-07-06",
+      "participants": [
+        "worker3-0",
+        "worker4-0"
+      ],
+      "status": "interrupted",
+      "minutes": 40,
+      "score": null
+    },
+    {
+      "id": "service3-0-1",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-07-07",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 39,
+      "score": 3
+    },
+    {
+      "id": "service3-0-2",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-07-08",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "completed",
+      "minutes": 42,
+      "score": 5
+    },
+    {
+      "id": "service3-0-3",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-07-09",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 41,
+      "score": 5
+    },
+    {
+      "id": "service3-0-4",
+      "team": "team3",
+      "resident": "older4",
+      "date": "2026-07-10",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "interrupted",
+      "minutes": 53,
+      "score": 2
+    },
+    {
+      "id": "service3-0-5",
+      "team": "team3",
+      "resident": "older5",
+      "date": "2026-07-11",
+      "participants": [
+        "worker3-2",
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 24,
+      "score": 4
+    },
+    {
+      "id": "service3-0-6",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-07-12",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "interrupted",
+      "minutes": 44,
+      "score": null
+    },
+    {
+      "id": "service3-0-7",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-07-06",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": null
+    },
+    {
+      "id": "service3-0-8",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-07-07",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "completed",
+      "minutes": 20,
+      "score": 4
+    },
+    {
+      "id": "service3-0-9",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-07-08",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 22,
+      "score": 5
+    },
+    {
+      "id": "service3-1-0",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-07-13",
+      "participants": [
+        "worker3-0",
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 37,
+      "score": null
+    },
+    {
+      "id": "service3-1-1",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-07-14",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 40,
+      "score": 4
+    },
+    {
+      "id": "service3-1-2",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-07-15",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "completed",
+      "minutes": 22,
+      "score": 4
+    },
+    {
+      "id": "service3-1-3",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-07-16",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 57,
+      "score": 2
+    },
+    {
+      "id": "service3-1-4",
+      "team": "team3",
+      "resident": "older4",
+      "date": "2026-07-17",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 65,
+      "score": null
+    },
+    {
+      "id": "service3-1-5",
+      "team": "team3",
+      "resident": "older5",
+      "date": "2026-07-18",
+      "participants": [
+        "worker3-2",
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 25,
+      "score": 3
+    },
+    {
+      "id": "service3-1-6",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-07-19",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "interrupted",
+      "minutes": 44,
+      "score": 3
+    },
+    {
+      "id": "service3-1-7",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-07-13",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 43,
+      "score": null
+    },
+    {
+      "id": "service3-1-8",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-07-14",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": 2
+    },
+    {
+      "id": "service3-1-9",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-07-15",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 51,
+      "score": null
+    },
+    {
+      "id": "service3-2-0",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-07-20",
+      "participants": [
+        "worker3-0",
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 47,
+      "score": 3
+    },
+    {
+      "id": "service3-2-1",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-07-21",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": 2
+    },
+    {
+      "id": "service3-2-2",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-07-22",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "interrupted",
+      "minutes": 55,
+      "score": null
+    },
+    {
+      "id": "service3-2-3",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-07-23",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 35,
+      "score": 2
+    },
+    {
+      "id": "service3-2-4",
+      "team": "team3",
+      "resident": "older4",
+      "date": "2026-07-24",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 23,
+      "score": 3
+    },
+    {
+      "id": "service3-2-5",
+      "team": "team3",
+      "resident": "older5",
+      "date": "2026-07-25",
+      "participants": [
+        "worker3-2",
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 35,
+      "score": null
+    },
+    {
+      "id": "service3-2-6",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-07-26",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 57,
+      "score": 4
+    },
+    {
+      "id": "service3-2-7",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-07-20",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 22,
+      "score": 2
+    },
+    {
+      "id": "service3-2-8",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-07-21",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "interrupted",
+      "minutes": 59,
+      "score": 4
+    },
+    {
+      "id": "service3-2-9",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-07-22",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 29,
+      "score": 4
+    },
+    {
+      "id": "service3-3-0",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-07-27",
+      "participants": [
+        "worker3-0",
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": null
+    },
+    {
+      "id": "service3-3-1",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-07-28",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 57,
+      "score": null
+    },
+    {
+      "id": "service3-3-2",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-07-29",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "completed",
+      "minutes": 41,
+      "score": 5
+    },
+    {
+      "id": "service3-3-3",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-07-30",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 60,
+      "score": 2
+    },
+    {
+      "id": "service3-3-4",
+      "team": "team3",
+      "resident": "older4",
+      "date": "2026-07-31",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": 3
+    },
+    {
+      "id": "service3-3-5",
+      "team": "team3",
+      "resident": "older5",
+      "date": "2026-08-01",
+      "participants": [
+        "worker3-2",
+        "worker4-0"
+      ],
+      "status": "interrupted",
+      "minutes": 43,
+      "score": 4
+    },
+    {
+      "id": "service3-3-6",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-08-02",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": 3
+    },
+    {
+      "id": "service3-3-7",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-07-27",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 3
+    },
+    {
+      "id": "service3-3-8",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-07-28",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": 4
+    },
+    {
+      "id": "service3-3-9",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-07-29",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 4
+    },
+    {
+      "id": "service3-4-0",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-08-03",
+      "participants": [
+        "worker3-0",
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 3
+    },
+    {
+      "id": "service3-4-1",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-08-04",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": 5
+    },
+    {
+      "id": "service3-4-2",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-08-05",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "completed",
+      "minutes": 63,
+      "score": 2
+    },
+    {
+      "id": "service3-4-3",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-08-06",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 49,
+      "score": 2
+    },
+    {
+      "id": "service3-4-4",
+      "team": "team3",
+      "resident": "older4",
+      "date": "2026-08-07",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 39,
+      "score": 4
+    },
+    {
+      "id": "service3-4-5",
+      "team": "team3",
+      "resident": "older5",
+      "date": "2026-08-08",
+      "participants": [
+        "worker3-2",
+        "worker4-0"
+      ],
+      "status": "interrupted",
+      "minutes": 52,
+      "score": 4
+    },
+    {
+      "id": "service3-4-6",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-08-09",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 32,
+      "score": 3
+    },
+    {
+      "id": "service3-4-7",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-08-03",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 45,
+      "score": 4
+    },
+    {
+      "id": "service3-4-8",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-08-04",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": null
+    },
+    {
+      "id": "service3-4-9",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-08-05",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 54,
+      "score": 4
+    },
+    {
+      "id": "service3-5-0",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-08-10",
+      "participants": [
+        "worker3-0",
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 47,
+      "score": 2
+    },
+    {
+      "id": "service3-5-1",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-08-11",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 53,
+      "score": 5
+    },
+    {
+      "id": "service3-5-2",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-08-12",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "completed",
+      "minutes": 39,
+      "score": 4
+    },
+    {
+      "id": "service3-5-3",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-08-13",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 59,
+      "score": 5
+    },
+    {
+      "id": "service3-5-4",
+      "team": "team3",
+      "resident": "older4",
+      "date": "2026-08-14",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 41,
+      "score": 2
+    },
+    {
+      "id": "service3-5-5",
+      "team": "team3",
+      "resident": "older5",
+      "date": "2026-08-15",
+      "participants": [
+        "worker3-2",
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 44,
+      "score": 5
+    },
+    {
+      "id": "service3-5-6",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-08-16",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": 2
+    },
+    {
+      "id": "service3-5-7",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-08-10",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 53,
+      "score": 3
+    },
+    {
+      "id": "service3-5-8",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-08-11",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "completed",
+      "minutes": 41,
+      "score": 2
+    },
+    {
+      "id": "service3-5-9",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-08-12",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 36,
+      "score": 4
+    },
+    {
+      "id": "service3-6-0",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-08-17",
+      "participants": [
+        "worker3-0",
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 22,
+      "score": 4
+    },
+    {
+      "id": "service3-6-1",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-08-18",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 53,
+      "score": 3
+    },
+    {
+      "id": "service3-6-2",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-08-19",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "completed",
+      "minutes": 38,
+      "score": 4
+    },
+    {
+      "id": "service3-6-3",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-08-20",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": 5
+    },
+    {
+      "id": "service3-6-4",
+      "team": "team3",
+      "resident": "older4",
+      "date": "2026-08-21",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 2
+    },
+    {
+      "id": "service3-6-5",
+      "team": "team3",
+      "resident": "older5",
+      "date": "2026-08-22",
+      "participants": [
+        "worker3-2",
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 41,
+      "score": 2
+    },
+    {
+      "id": "service3-6-6",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-08-23",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 44,
+      "score": 2
+    },
+    {
+      "id": "service3-6-7",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-08-17",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 35,
+      "score": 5
+    },
+    {
+      "id": "service3-6-8",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-08-18",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "interrupted",
+      "minutes": 57,
+      "score": 2
+    },
+    {
+      "id": "service3-6-9",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-08-19",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "interrupted",
+      "minutes": 33,
+      "score": 3
+    },
+    {
+      "id": "service3-7-0",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-08-24",
+      "participants": [
+        "worker3-0",
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 35,
+      "score": 5
+    },
+    {
+      "id": "service3-7-1",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-08-25",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 53,
+      "score": 3
+    },
+    {
+      "id": "service3-7-2",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-08-26",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "interrupted",
+      "minutes": 46,
+      "score": null
+    },
+    {
+      "id": "service3-7-3",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-08-27",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 59,
+      "score": 5
+    },
+    {
+      "id": "service3-7-4",
+      "team": "team3",
+      "resident": "older4",
+      "date": "2026-08-28",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "completed",
+      "minutes": 59,
+      "score": 4
+    },
+    {
+      "id": "service3-7-5",
+      "team": "team3",
+      "resident": "older5",
+      "date": "2026-08-29",
+      "participants": [
+        "worker3-2",
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 48,
+      "score": 5
+    },
+    {
+      "id": "service3-7-6",
+      "team": "team3",
+      "resident": "older0",
+      "date": "2026-08-30",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 64,
+      "score": 5
+    },
+    {
+      "id": "service3-7-7",
+      "team": "team3",
+      "resident": "older1",
+      "date": "2026-08-24",
+      "participants": [
+        "worker3-1"
+      ],
+      "status": "interrupted",
+      "minutes": 23,
+      "score": 4
+    },
+    {
+      "id": "service3-7-8",
+      "team": "team3",
+      "resident": "older2",
+      "date": "2026-08-25",
+      "participants": [
+        "worker3-2"
+      ],
+      "status": "completed",
+      "minutes": 39,
+      "score": null
+    },
+    {
+      "id": "service3-7-9",
+      "team": "team3",
+      "resident": "older3",
+      "date": "2026-08-26",
+      "participants": [
+        "worker3-0"
+      ],
+      "status": "completed",
+      "minutes": 61,
+      "score": null
+    },
+    {
+      "id": "service4-0-0",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-07-06",
+      "participants": [
+        "worker4-0",
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 25,
+      "score": 3
+    },
+    {
+      "id": "service4-0-1",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-07-07",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "interrupted",
+      "minutes": 26,
+      "score": 4
+    },
+    {
+      "id": "service4-0-2",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-07-08",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "completed",
+      "minutes": 57,
+      "score": 3
+    },
+    {
+      "id": "service4-0-3",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-07-09",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 44,
+      "score": 2
+    },
+    {
+      "id": "service4-0-4",
+      "team": "team4",
+      "resident": "older4",
+      "date": "2026-07-10",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 65,
+      "score": 3
+    },
+    {
+      "id": "service4-0-5",
+      "team": "team4",
+      "resident": "older5",
+      "date": "2026-07-11",
+      "participants": [
+        "worker4-2",
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 37,
+      "score": null
+    },
+    {
+      "id": "service4-0-6",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-07-12",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "interrupted",
+      "minutes": 23,
+      "score": 4
+    },
+    {
+      "id": "service4-0-7",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-07-06",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 3
+    },
+    {
+      "id": "service4-0-8",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-07-07",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "completed",
+      "minutes": 64,
+      "score": 2
+    },
+    {
+      "id": "service4-0-9",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-07-08",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 47,
+      "score": 3
+    },
+    {
+      "id": "service4-1-0",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-07-13",
+      "participants": [
+        "worker4-0",
+        "worker5-0"
+      ],
+      "status": "interrupted",
+      "minutes": 33,
+      "score": null
+    },
+    {
+      "id": "service4-1-1",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-07-14",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 2
+    },
+    {
+      "id": "service4-1-2",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-07-15",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "completed",
+      "minutes": 26,
+      "score": 5
+    },
+    {
+      "id": "service4-1-3",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-07-16",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 23,
+      "score": 5
+    },
+    {
+      "id": "service4-1-4",
+      "team": "team4",
+      "resident": "older4",
+      "date": "2026-07-17",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 44,
+      "score": 2
+    },
+    {
+      "id": "service4-1-5",
+      "team": "team4",
+      "resident": "older5",
+      "date": "2026-07-18",
+      "participants": [
+        "worker4-2",
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 5
+    },
+    {
+      "id": "service4-1-6",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-07-19",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 56,
+      "score": 4
+    },
+    {
+      "id": "service4-1-7",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-07-13",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "interrupted",
+      "minutes": 62,
+      "score": 4
+    },
+    {
+      "id": "service4-1-8",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-07-14",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "completed",
+      "minutes": 48,
+      "score": 5
+    },
+    {
+      "id": "service4-1-9",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-07-15",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 30,
+      "score": 5
+    },
+    {
+      "id": "service4-2-0",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-07-20",
+      "participants": [
+        "worker4-0",
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 45,
+      "score": 5
+    },
+    {
+      "id": "service4-2-1",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-07-21",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 51,
+      "score": 2
+    },
+    {
+      "id": "service4-2-2",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-07-22",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "completed",
+      "minutes": 46,
+      "score": 2
+    },
+    {
+      "id": "service4-2-3",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-07-23",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 32,
+      "score": 5
+    },
+    {
+      "id": "service4-2-4",
+      "team": "team4",
+      "resident": "older4",
+      "date": "2026-07-24",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 39,
+      "score": 3
+    },
+    {
+      "id": "service4-2-5",
+      "team": "team4",
+      "resident": "older5",
+      "date": "2026-07-25",
+      "participants": [
+        "worker4-2",
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 51,
+      "score": 3
+    },
+    {
+      "id": "service4-2-6",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-07-26",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 28,
+      "score": null
+    },
+    {
+      "id": "service4-2-7",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-07-20",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 59,
+      "score": 3
+    },
+    {
+      "id": "service4-2-8",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-07-21",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "completed",
+      "minutes": 32,
+      "score": null
+    },
+    {
+      "id": "service4-2-9",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-07-22",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 65,
+      "score": 4
+    },
+    {
+      "id": "service4-3-0",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-07-27",
+      "participants": [
+        "worker4-0",
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 42,
+      "score": 3
+    },
+    {
+      "id": "service4-3-1",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-07-28",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 37,
+      "score": null
+    },
+    {
+      "id": "service4-3-2",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-07-29",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "completed",
+      "minutes": 54,
+      "score": 3
+    },
+    {
+      "id": "service4-3-3",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-07-30",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 60,
+      "score": 2
+    },
+    {
+      "id": "service4-3-4",
+      "team": "team4",
+      "resident": "older4",
+      "date": "2026-07-31",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 44,
+      "score": 2
+    },
+    {
+      "id": "service4-3-5",
+      "team": "team4",
+      "resident": "older5",
+      "date": "2026-08-01",
+      "participants": [
+        "worker4-2",
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 55,
+      "score": 5
+    },
+    {
+      "id": "service4-3-6",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-08-02",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 3
+    },
+    {
+      "id": "service4-3-7",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-07-27",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 41,
+      "score": null
+    },
+    {
+      "id": "service4-3-8",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-07-28",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "completed",
+      "minutes": 64,
+      "score": null
+    },
+    {
+      "id": "service4-3-9",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-07-29",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 46,
+      "score": 5
+    },
+    {
+      "id": "service4-4-0",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-08-03",
+      "participants": [
+        "worker4-0",
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": 3
+    },
+    {
+      "id": "service4-4-1",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-08-04",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 36,
+      "score": 5
+    },
+    {
+      "id": "service4-4-2",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-08-05",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "interrupted",
+      "minutes": 52,
+      "score": 5
+    },
+    {
+      "id": "service4-4-3",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-08-06",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 35,
+      "score": 3
+    },
+    {
+      "id": "service4-4-4",
+      "team": "team4",
+      "resident": "older4",
+      "date": "2026-08-07",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 42,
+      "score": 4
+    },
+    {
+      "id": "service4-4-5",
+      "team": "team4",
+      "resident": "older5",
+      "date": "2026-08-08",
+      "participants": [
+        "worker4-2",
+        "worker5-0"
+      ],
+      "status": "interrupted",
+      "minutes": 60,
+      "score": 3
+    },
+    {
+      "id": "service4-4-6",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-08-09",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 5
+    },
+    {
+      "id": "service4-4-7",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-08-03",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 23,
+      "score": 4
+    },
+    {
+      "id": "service4-4-8",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-08-04",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "completed",
+      "minutes": 45,
+      "score": 5
+    },
+    {
+      "id": "service4-4-9",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-08-05",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 4
+    },
+    {
+      "id": "service4-5-0",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-08-10",
+      "participants": [
+        "worker4-0",
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 5
+    },
+    {
+      "id": "service4-5-1",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-08-11",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 5
+    },
+    {
+      "id": "service4-5-2",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-08-12",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "completed",
+      "minutes": 26,
+      "score": null
+    },
+    {
+      "id": "service4-5-3",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-08-13",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 32,
+      "score": null
+    },
+    {
+      "id": "service4-5-4",
+      "team": "team4",
+      "resident": "older4",
+      "date": "2026-08-14",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "interrupted",
+      "minutes": 64,
+      "score": null
+    },
+    {
+      "id": "service4-5-5",
+      "team": "team4",
+      "resident": "older5",
+      "date": "2026-08-15",
+      "participants": [
+        "worker4-2",
+        "worker5-0"
+      ],
+      "status": "interrupted",
+      "minutes": 55,
+      "score": null
+    },
+    {
+      "id": "service4-5-6",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-08-16",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 42,
+      "score": null
+    },
+    {
+      "id": "service4-5-7",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-08-10",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 49,
+      "score": 5
+    },
+    {
+      "id": "service4-5-8",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-08-11",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "completed",
+      "minutes": 59,
+      "score": 4
+    },
+    {
+      "id": "service4-5-9",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-08-12",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "interrupted",
+      "minutes": 48,
+      "score": 3
+    },
+    {
+      "id": "service4-6-0",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-08-17",
+      "participants": [
+        "worker4-0",
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": 3
+    },
+    {
+      "id": "service4-6-1",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-08-18",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 25,
+      "score": 3
+    },
+    {
+      "id": "service4-6-2",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-08-19",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "completed",
+      "minutes": 52,
+      "score": 2
+    },
+    {
+      "id": "service4-6-3",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-08-20",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": 3
+    },
+    {
+      "id": "service4-6-4",
+      "team": "team4",
+      "resident": "older4",
+      "date": "2026-08-21",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 64,
+      "score": 5
+    },
+    {
+      "id": "service4-6-5",
+      "team": "team4",
+      "resident": "older5",
+      "date": "2026-08-22",
+      "participants": [
+        "worker4-2",
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 51,
+      "score": 5
+    },
+    {
+      "id": "service4-6-6",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-08-23",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 59,
+      "score": 2
+    },
+    {
+      "id": "service4-6-7",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-08-17",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "interrupted",
+      "minutes": 49,
+      "score": 5
+    },
+    {
+      "id": "service4-6-8",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-08-18",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "completed",
+      "minutes": 49,
+      "score": 2
+    },
+    {
+      "id": "service4-6-9",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-08-19",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 48,
+      "score": 2
+    },
+    {
+      "id": "service4-7-0",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-08-24",
+      "participants": [
+        "worker4-0",
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 24,
+      "score": null
+    },
+    {
+      "id": "service4-7-1",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-08-25",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 26,
+      "score": 5
+    },
+    {
+      "id": "service4-7-2",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-08-26",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "interrupted",
+      "minutes": 60,
+      "score": 5
+    },
+    {
+      "id": "service4-7-3",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-08-27",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 59,
+      "score": 5
+    },
+    {
+      "id": "service4-7-4",
+      "team": "team4",
+      "resident": "older4",
+      "date": "2026-08-28",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": 2
+    },
+    {
+      "id": "service4-7-5",
+      "team": "team4",
+      "resident": "older5",
+      "date": "2026-08-29",
+      "participants": [
+        "worker4-2",
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": null
+    },
+    {
+      "id": "service4-7-6",
+      "team": "team4",
+      "resident": "older0",
+      "date": "2026-08-30",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 47,
+      "score": 5
+    },
+    {
+      "id": "service4-7-7",
+      "team": "team4",
+      "resident": "older1",
+      "date": "2026-08-24",
+      "participants": [
+        "worker4-1"
+      ],
+      "status": "completed",
+      "minutes": 65,
+      "score": 3
+    },
+    {
+      "id": "service4-7-8",
+      "team": "team4",
+      "resident": "older2",
+      "date": "2026-08-25",
+      "participants": [
+        "worker4-2"
+      ],
+      "status": "completed",
+      "minutes": 24,
+      "score": 3
+    },
+    {
+      "id": "service4-7-9",
+      "team": "team4",
+      "resident": "older3",
+      "date": "2026-08-26",
+      "participants": [
+        "worker4-0"
+      ],
+      "status": "completed",
+      "minutes": 29,
+      "score": 5
+    },
+    {
+      "id": "service5-0-0",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-07-06",
+      "participants": [
+        "worker5-0",
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 49,
+      "score": 5
+    },
+    {
+      "id": "service5-0-1",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-07-07",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": null
+    },
+    {
+      "id": "service5-0-2",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-07-08",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 54,
+      "score": 5
+    },
+    {
+      "id": "service5-0-3",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-07-09",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": 2
+    },
+    {
+      "id": "service5-0-4",
+      "team": "team5",
+      "resident": "older4",
+      "date": "2026-07-10",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 44,
+      "score": 3
+    },
+    {
+      "id": "service5-0-5",
+      "team": "team5",
+      "resident": "older5",
+      "date": "2026-07-11",
+      "participants": [
+        "worker5-2",
+        "worker6-0"
+      ],
+      "status": "interrupted",
+      "minutes": 39,
+      "score": 2
+    },
+    {
+      "id": "service5-0-6",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-07-12",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 26,
+      "score": 4
+    },
+    {
+      "id": "service5-0-7",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-07-06",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "interrupted",
+      "minutes": 47,
+      "score": 4
+    },
+    {
+      "id": "service5-0-8",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-07-07",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 35,
+      "score": null
+    },
+    {
+      "id": "service5-0-9",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-07-08",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 3
+    },
+    {
+      "id": "service5-1-0",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-07-13",
+      "participants": [
+        "worker5-0",
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 48,
+      "score": null
+    },
+    {
+      "id": "service5-1-1",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-07-14",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 39,
+      "score": 4
+    },
+    {
+      "id": "service5-1-2",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-07-15",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 36,
+      "score": null
+    },
+    {
+      "id": "service5-1-3",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-07-16",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": null
+    },
+    {
+      "id": "service5-1-4",
+      "team": "team5",
+      "resident": "older4",
+      "date": "2026-07-17",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 39,
+      "score": 4
+    },
+    {
+      "id": "service5-1-5",
+      "team": "team5",
+      "resident": "older5",
+      "date": "2026-07-18",
+      "participants": [
+        "worker5-2",
+        "worker6-0"
+      ],
+      "status": "interrupted",
+      "minutes": 50,
+      "score": 4
+    },
+    {
+      "id": "service5-1-6",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-07-19",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "interrupted",
+      "minutes": 52,
+      "score": 2
+    },
+    {
+      "id": "service5-1-7",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-07-13",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 38,
+      "score": null
+    },
+    {
+      "id": "service5-1-8",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-07-14",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 38,
+      "score": 2
+    },
+    {
+      "id": "service5-1-9",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-07-15",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 63,
+      "score": 4
+    },
+    {
+      "id": "service5-2-0",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-07-20",
+      "participants": [
+        "worker5-0",
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": 5
+    },
+    {
+      "id": "service5-2-1",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-07-21",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": 3
+    },
+    {
+      "id": "service5-2-2",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-07-22",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 42,
+      "score": null
+    },
+    {
+      "id": "service5-2-3",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-07-23",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 43,
+      "score": 4
+    },
+    {
+      "id": "service5-2-4",
+      "team": "team5",
+      "resident": "older4",
+      "date": "2026-07-24",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": null
+    },
+    {
+      "id": "service5-2-5",
+      "team": "team5",
+      "resident": "older5",
+      "date": "2026-07-25",
+      "participants": [
+        "worker5-2",
+        "worker6-0"
+      ],
+      "status": "interrupted",
+      "minutes": 43,
+      "score": 5
+    },
+    {
+      "id": "service5-2-6",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-07-26",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 45,
+      "score": 4
+    },
+    {
+      "id": "service5-2-7",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-07-20",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 42,
+      "score": 5
+    },
+    {
+      "id": "service5-2-8",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-07-21",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 53,
+      "score": 3
+    },
+    {
+      "id": "service5-2-9",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-07-22",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 61,
+      "score": 4
+    },
+    {
+      "id": "service5-3-0",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-07-27",
+      "participants": [
+        "worker5-0",
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": null
+    },
+    {
+      "id": "service5-3-1",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-07-28",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 28,
+      "score": null
+    },
+    {
+      "id": "service5-3-2",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-07-29",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 24,
+      "score": 2
+    },
+    {
+      "id": "service5-3-3",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-07-30",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 27,
+      "score": 3
+    },
+    {
+      "id": "service5-3-4",
+      "team": "team5",
+      "resident": "older4",
+      "date": "2026-07-31",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 60,
+      "score": 5
+    },
+    {
+      "id": "service5-3-5",
+      "team": "team5",
+      "resident": "older5",
+      "date": "2026-08-01",
+      "participants": [
+        "worker5-2",
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 2
+    },
+    {
+      "id": "service5-3-6",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-08-02",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 53,
+      "score": 2
+    },
+    {
+      "id": "service5-3-7",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-07-27",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 35,
+      "score": 5
+    },
+    {
+      "id": "service5-3-8",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-07-28",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 26,
+      "score": null
+    },
+    {
+      "id": "service5-3-9",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-07-29",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 27,
+      "score": 4
+    },
+    {
+      "id": "service5-4-0",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-08-03",
+      "participants": [
+        "worker5-0",
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 36,
+      "score": 2
+    },
+    {
+      "id": "service5-4-1",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-08-04",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 41,
+      "score": 5
+    },
+    {
+      "id": "service5-4-2",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-08-05",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": null
+    },
+    {
+      "id": "service5-4-3",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-08-06",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 41,
+      "score": 2
+    },
+    {
+      "id": "service5-4-4",
+      "team": "team5",
+      "resident": "older4",
+      "date": "2026-08-07",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 51,
+      "score": 3
+    },
+    {
+      "id": "service5-4-5",
+      "team": "team5",
+      "resident": "older5",
+      "date": "2026-08-08",
+      "participants": [
+        "worker5-2",
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 20,
+      "score": 5
+    },
+    {
+      "id": "service5-4-6",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-08-09",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 45,
+      "score": 2
+    },
+    {
+      "id": "service5-4-7",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-08-03",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": 4
+    },
+    {
+      "id": "service5-4-8",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-08-04",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 57,
+      "score": 4
+    },
+    {
+      "id": "service5-4-9",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-08-05",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "interrupted",
+      "minutes": 53,
+      "score": 2
+    },
+    {
+      "id": "service5-5-0",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-08-10",
+      "participants": [
+        "worker5-0",
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 4
+    },
+    {
+      "id": "service5-5-1",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-08-11",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 36,
+      "score": 3
+    },
+    {
+      "id": "service5-5-2",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-08-12",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 59,
+      "score": 4
+    },
+    {
+      "id": "service5-5-3",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-08-13",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": 4
+    },
+    {
+      "id": "service5-5-4",
+      "team": "team5",
+      "resident": "older4",
+      "date": "2026-08-14",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 46,
+      "score": 4
+    },
+    {
+      "id": "service5-5-5",
+      "team": "team5",
+      "resident": "older5",
+      "date": "2026-08-15",
+      "participants": [
+        "worker5-2",
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": 3
+    },
+    {
+      "id": "service5-5-6",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-08-16",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 35,
+      "score": null
+    },
+    {
+      "id": "service5-5-7",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-08-10",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 60,
+      "score": 4
+    },
+    {
+      "id": "service5-5-8",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-08-11",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 20,
+      "score": 2
+    },
+    {
+      "id": "service5-5-9",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-08-12",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 43,
+      "score": 5
+    },
+    {
+      "id": "service5-6-0",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-08-17",
+      "participants": [
+        "worker5-0",
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 52,
+      "score": 5
+    },
+    {
+      "id": "service5-6-1",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-08-18",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 20,
+      "score": null
+    },
+    {
+      "id": "service5-6-2",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-08-19",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 29,
+      "score": null
+    },
+    {
+      "id": "service5-6-3",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-08-20",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 3
+    },
+    {
+      "id": "service5-6-4",
+      "team": "team5",
+      "resident": "older4",
+      "date": "2026-08-21",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 43,
+      "score": null
+    },
+    {
+      "id": "service5-6-5",
+      "team": "team5",
+      "resident": "older5",
+      "date": "2026-08-22",
+      "participants": [
+        "worker5-2",
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": 3
+    },
+    {
+      "id": "service5-6-6",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-08-23",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "interrupted",
+      "minutes": 32,
+      "score": null
+    },
+    {
+      "id": "service5-6-7",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-08-17",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 44,
+      "score": 5
+    },
+    {
+      "id": "service5-6-8",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-08-18",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 43,
+      "score": 4
+    },
+    {
+      "id": "service5-6-9",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-08-19",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 28,
+      "score": null
+    },
+    {
+      "id": "service5-7-0",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-08-24",
+      "participants": [
+        "worker5-0",
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 24,
+      "score": 4
+    },
+    {
+      "id": "service5-7-1",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-08-25",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": 5
+    },
+    {
+      "id": "service5-7-2",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-08-26",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 46,
+      "score": 3
+    },
+    {
+      "id": "service5-7-3",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-08-27",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 60,
+      "score": 3
+    },
+    {
+      "id": "service5-7-4",
+      "team": "team5",
+      "resident": "older4",
+      "date": "2026-08-28",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 27,
+      "score": 5
+    },
+    {
+      "id": "service5-7-5",
+      "team": "team5",
+      "resident": "older5",
+      "date": "2026-08-29",
+      "participants": [
+        "worker5-2",
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 65,
+      "score": 5
+    },
+    {
+      "id": "service5-7-6",
+      "team": "team5",
+      "resident": "older0",
+      "date": "2026-08-30",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 26,
+      "score": 2
+    },
+    {
+      "id": "service5-7-7",
+      "team": "team5",
+      "resident": "older1",
+      "date": "2026-08-24",
+      "participants": [
+        "worker5-1"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": null
+    },
+    {
+      "id": "service5-7-8",
+      "team": "team5",
+      "resident": "older2",
+      "date": "2026-08-25",
+      "participants": [
+        "worker5-2"
+      ],
+      "status": "completed",
+      "minutes": 54,
+      "score": 5
+    },
+    {
+      "id": "service5-7-9",
+      "team": "team5",
+      "resident": "older3",
+      "date": "2026-08-26",
+      "participants": [
+        "worker5-0"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 4
+    },
+    {
+      "id": "service6-0-0",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-07-06",
+      "participants": [
+        "worker6-0",
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 46,
+      "score": 3
+    },
+    {
+      "id": "service6-0-1",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-07-07",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 59,
+      "score": null
+    },
+    {
+      "id": "service6-0-2",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-07-08",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "completed",
+      "minutes": 49,
+      "score": 5
+    },
+    {
+      "id": "service6-0-3",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-07-09",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "interrupted",
+      "minutes": 23,
+      "score": 5
+    },
+    {
+      "id": "service6-0-4",
+      "team": "team6",
+      "resident": "older4",
+      "date": "2026-07-10",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 59,
+      "score": null
+    },
+    {
+      "id": "service6-0-5",
+      "team": "team6",
+      "resident": "older5",
+      "date": "2026-07-11",
+      "participants": [
+        "worker6-2",
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 39,
+      "score": null
+    },
+    {
+      "id": "service6-0-6",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-07-12",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": 3
+    },
+    {
+      "id": "service6-0-7",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-07-06",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 61,
+      "score": 5
+    },
+    {
+      "id": "service6-0-8",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-07-07",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": null
+    },
+    {
+      "id": "service6-0-9",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-07-08",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 3
+    },
+    {
+      "id": "service6-1-0",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-07-13",
+      "participants": [
+        "worker6-0",
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 53,
+      "score": 4
+    },
+    {
+      "id": "service6-1-1",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-07-14",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 63,
+      "score": 4
+    },
+    {
+      "id": "service6-1-2",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-07-15",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "completed",
+      "minutes": 40,
+      "score": 5
+    },
+    {
+      "id": "service6-1-3",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-07-16",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": 2
+    },
+    {
+      "id": "service6-1-4",
+      "team": "team6",
+      "resident": "older4",
+      "date": "2026-07-17",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "interrupted",
+      "minutes": 60,
+      "score": null
+    },
+    {
+      "id": "service6-1-5",
+      "team": "team6",
+      "resident": "older5",
+      "date": "2026-07-18",
+      "participants": [
+        "worker6-2",
+        "worker7-0"
+      ],
+      "status": "interrupted",
+      "minutes": 31,
+      "score": 4
+    },
+    {
+      "id": "service6-1-6",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-07-19",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "interrupted",
+      "minutes": 36,
+      "score": null
+    },
+    {
+      "id": "service6-1-7",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-07-13",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 55,
+      "score": 3
+    },
+    {
+      "id": "service6-1-8",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-07-14",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 4
+    },
+    {
+      "id": "service6-1-9",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-07-15",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 54,
+      "score": null
+    },
+    {
+      "id": "service6-2-0",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-07-20",
+      "participants": [
+        "worker6-0",
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 56,
+      "score": 5
+    },
+    {
+      "id": "service6-2-1",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-07-21",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "interrupted",
+      "minutes": 52,
+      "score": 3
+    },
+    {
+      "id": "service6-2-2",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-07-22",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "completed",
+      "minutes": 41,
+      "score": 2
+    },
+    {
+      "id": "service6-2-3",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-07-23",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 44,
+      "score": null
+    },
+    {
+      "id": "service6-2-4",
+      "team": "team6",
+      "resident": "older4",
+      "date": "2026-07-24",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": 4
+    },
+    {
+      "id": "service6-2-5",
+      "team": "team6",
+      "resident": "older5",
+      "date": "2026-07-25",
+      "participants": [
+        "worker6-2",
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 4
+    },
+    {
+      "id": "service6-2-6",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-07-26",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "interrupted",
+      "minutes": 33,
+      "score": null
+    },
+    {
+      "id": "service6-2-7",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-07-20",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 65,
+      "score": 5
+    },
+    {
+      "id": "service6-2-8",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-07-21",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 3
+    },
+    {
+      "id": "service6-2-9",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-07-22",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 24,
+      "score": 5
+    },
+    {
+      "id": "service6-3-0",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-07-27",
+      "participants": [
+        "worker6-0",
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 54,
+      "score": null
+    },
+    {
+      "id": "service6-3-1",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-07-28",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": 3
+    },
+    {
+      "id": "service6-3-2",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-07-29",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "completed",
+      "minutes": 27,
+      "score": 5
+    },
+    {
+      "id": "service6-3-3",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-07-30",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "interrupted",
+      "minutes": 48,
+      "score": 4
+    },
+    {
+      "id": "service6-3-4",
+      "team": "team6",
+      "resident": "older4",
+      "date": "2026-07-31",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 22,
+      "score": 3
+    },
+    {
+      "id": "service6-3-5",
+      "team": "team6",
+      "resident": "older5",
+      "date": "2026-08-01",
+      "participants": [
+        "worker6-2",
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 23,
+      "score": null
+    },
+    {
+      "id": "service6-3-6",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-08-02",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 5
+    },
+    {
+      "id": "service6-3-7",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-07-27",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 46,
+      "score": 3
+    },
+    {
+      "id": "service6-3-8",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-07-28",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "completed",
+      "minutes": 41,
+      "score": 3
+    },
+    {
+      "id": "service6-3-9",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-07-29",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "interrupted",
+      "minutes": 31,
+      "score": 2
+    },
+    {
+      "id": "service6-4-0",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-08-03",
+      "participants": [
+        "worker6-0",
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 41,
+      "score": 3
+    },
+    {
+      "id": "service6-4-1",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-08-04",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 53,
+      "score": 2
+    },
+    {
+      "id": "service6-4-2",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-08-05",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "completed",
+      "minutes": 22,
+      "score": 5
+    },
+    {
+      "id": "service6-4-3",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-08-06",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 25,
+      "score": null
+    },
+    {
+      "id": "service6-4-4",
+      "team": "team6",
+      "resident": "older4",
+      "date": "2026-08-07",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 42,
+      "score": null
+    },
+    {
+      "id": "service6-4-5",
+      "team": "team6",
+      "resident": "older5",
+      "date": "2026-08-08",
+      "participants": [
+        "worker6-2",
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": 3
+    },
+    {
+      "id": "service6-4-6",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-08-09",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 35,
+      "score": 5
+    },
+    {
+      "id": "service6-4-7",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-08-03",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 51,
+      "score": 2
+    },
+    {
+      "id": "service6-4-8",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-08-04",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "completed",
+      "minutes": 64,
+      "score": 4
+    },
+    {
+      "id": "service6-4-9",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-08-05",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 41,
+      "score": 5
+    },
+    {
+      "id": "service6-5-0",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-08-10",
+      "participants": [
+        "worker6-0",
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 41,
+      "score": 4
+    },
+    {
+      "id": "service6-5-1",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-08-11",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 45,
+      "score": 3
+    },
+    {
+      "id": "service6-5-2",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-08-12",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "completed",
+      "minutes": 22,
+      "score": null
+    },
+    {
+      "id": "service6-5-3",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-08-13",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 60,
+      "score": 2
+    },
+    {
+      "id": "service6-5-4",
+      "team": "team6",
+      "resident": "older4",
+      "date": "2026-08-14",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 49,
+      "score": 5
+    },
+    {
+      "id": "service6-5-5",
+      "team": "team6",
+      "resident": "older5",
+      "date": "2026-08-15",
+      "participants": [
+        "worker6-2",
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": null
+    },
+    {
+      "id": "service6-5-6",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-08-16",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": null
+    },
+    {
+      "id": "service6-5-7",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-08-10",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 40,
+      "score": 5
+    },
+    {
+      "id": "service6-5-8",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-08-11",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": 3
+    },
+    {
+      "id": "service6-5-9",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-08-12",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 20,
+      "score": 2
+    },
+    {
+      "id": "service6-6-0",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-08-17",
+      "participants": [
+        "worker6-0",
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 53,
+      "score": 3
+    },
+    {
+      "id": "service6-6-1",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-08-18",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 24,
+      "score": null
+    },
+    {
+      "id": "service6-6-2",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-08-19",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": 2
+    },
+    {
+      "id": "service6-6-3",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-08-20",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 28,
+      "score": 2
+    },
+    {
+      "id": "service6-6-4",
+      "team": "team6",
+      "resident": "older4",
+      "date": "2026-08-21",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 53,
+      "score": 3
+    },
+    {
+      "id": "service6-6-5",
+      "team": "team6",
+      "resident": "older5",
+      "date": "2026-08-22",
+      "participants": [
+        "worker6-2",
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 22,
+      "score": 2
+    },
+    {
+      "id": "service6-6-6",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-08-23",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "interrupted",
+      "minutes": 20,
+      "score": 2
+    },
+    {
+      "id": "service6-6-7",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-08-17",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 28,
+      "score": 4
+    },
+    {
+      "id": "service6-6-8",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-08-18",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "completed",
+      "minutes": 30,
+      "score": 5
+    },
+    {
+      "id": "service6-6-9",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-08-19",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 3
+    },
+    {
+      "id": "service6-7-0",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-08-24",
+      "participants": [
+        "worker6-0",
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 56,
+      "score": 2
+    },
+    {
+      "id": "service6-7-1",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-08-25",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "interrupted",
+      "minutes": 28,
+      "score": 2
+    },
+    {
+      "id": "service6-7-2",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-08-26",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "completed",
+      "minutes": 26,
+      "score": 4
+    },
+    {
+      "id": "service6-7-3",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-08-27",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 35,
+      "score": 4
+    },
+    {
+      "id": "service6-7-4",
+      "team": "team6",
+      "resident": "older4",
+      "date": "2026-08-28",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 54,
+      "score": 3
+    },
+    {
+      "id": "service6-7-5",
+      "team": "team6",
+      "resident": "older5",
+      "date": "2026-08-29",
+      "participants": [
+        "worker6-2",
+        "worker7-0"
+      ],
+      "status": "interrupted",
+      "minutes": 34,
+      "score": null
+    },
+    {
+      "id": "service6-7-6",
+      "team": "team6",
+      "resident": "older0",
+      "date": "2026-08-30",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 4
+    },
+    {
+      "id": "service6-7-7",
+      "team": "team6",
+      "resident": "older1",
+      "date": "2026-08-24",
+      "participants": [
+        "worker6-1"
+      ],
+      "status": "completed",
+      "minutes": 53,
+      "score": 4
+    },
+    {
+      "id": "service6-7-8",
+      "team": "team6",
+      "resident": "older2",
+      "date": "2026-08-25",
+      "participants": [
+        "worker6-2"
+      ],
+      "status": "interrupted",
+      "minutes": 53,
+      "score": null
+    },
+    {
+      "id": "service6-7-9",
+      "team": "team6",
+      "resident": "older3",
+      "date": "2026-08-26",
+      "participants": [
+        "worker6-0"
+      ],
+      "status": "completed",
+      "minutes": 45,
+      "score": 3
+    },
+    {
+      "id": "service7-0-0",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-07-06",
+      "participants": [
+        "worker7-0",
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 59,
+      "score": 5
+    },
+    {
+      "id": "service7-0-1",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-07-07",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 40,
+      "score": 3
+    },
+    {
+      "id": "service7-0-2",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-07-08",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "completed",
+      "minutes": 36,
+      "score": 3
+    },
+    {
+      "id": "service7-0-3",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-07-09",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 48,
+      "score": 5
+    },
+    {
+      "id": "service7-0-4",
+      "team": "team7",
+      "resident": "older4",
+      "date": "2026-07-10",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 38,
+      "score": null
+    },
+    {
+      "id": "service7-0-5",
+      "team": "team7",
+      "resident": "older5",
+      "date": "2026-07-11",
+      "participants": [
+        "worker7-2",
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": 3
+    },
+    {
+      "id": "service7-0-6",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-07-12",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 56,
+      "score": 3
+    },
+    {
+      "id": "service7-0-7",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-07-06",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 43,
+      "score": 3
+    },
+    {
+      "id": "service7-0-8",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-07-07",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "completed",
+      "minutes": 34,
+      "score": 2
+    },
+    {
+      "id": "service7-0-9",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-07-08",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "interrupted",
+      "minutes": 26,
+      "score": 4
+    },
+    {
+      "id": "service7-1-0",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-07-13",
+      "participants": [
+        "worker7-0",
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 25,
+      "score": 2
+    },
+    {
+      "id": "service7-1-1",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-07-14",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 55,
+      "score": null
+    },
+    {
+      "id": "service7-1-2",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-07-15",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "interrupted",
+      "minutes": 30,
+      "score": 5
+    },
+    {
+      "id": "service7-1-3",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-07-16",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 27,
+      "score": 4
+    },
+    {
+      "id": "service7-1-4",
+      "team": "team7",
+      "resident": "older4",
+      "date": "2026-07-17",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 32,
+      "score": 4
+    },
+    {
+      "id": "service7-1-5",
+      "team": "team7",
+      "resident": "older5",
+      "date": "2026-07-18",
+      "participants": [
+        "worker7-2",
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 45,
+      "score": 3
+    },
+    {
+      "id": "service7-1-6",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-07-19",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 30,
+      "score": 2
+    },
+    {
+      "id": "service7-1-7",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-07-13",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 30,
+      "score": 2
+    },
+    {
+      "id": "service7-1-8",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-07-14",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "completed",
+      "minutes": 35,
+      "score": 2
+    },
+    {
+      "id": "service7-1-9",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-07-15",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 20,
+      "score": 5
+    },
+    {
+      "id": "service7-2-0",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-07-20",
+      "participants": [
+        "worker7-0",
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 40,
+      "score": 4
+    },
+    {
+      "id": "service7-2-1",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-07-21",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 42,
+      "score": 3
+    },
+    {
+      "id": "service7-2-2",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-07-22",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "completed",
+      "minutes": 37,
+      "score": 5
+    },
+    {
+      "id": "service7-2-3",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-07-23",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 43,
+      "score": 3
+    },
+    {
+      "id": "service7-2-4",
+      "team": "team7",
+      "resident": "older4",
+      "date": "2026-07-24",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 55,
+      "score": 3
+    },
+    {
+      "id": "service7-2-5",
+      "team": "team7",
+      "resident": "older5",
+      "date": "2026-07-25",
+      "participants": [
+        "worker7-2",
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 27,
+      "score": null
+    },
+    {
+      "id": "service7-2-6",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-07-26",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 26,
+      "score": 2
+    },
+    {
+      "id": "service7-2-7",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-07-20",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "interrupted",
+      "minutes": 26,
+      "score": 2
+    },
+    {
+      "id": "service7-2-8",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-07-21",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "completed",
+      "minutes": 49,
+      "score": 4
+    },
+    {
+      "id": "service7-2-9",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-07-22",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 52,
+      "score": 3
+    },
+    {
+      "id": "service7-3-0",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-07-27",
+      "participants": [
+        "worker7-0",
+        "worker0-0"
+      ],
+      "status": "interrupted",
+      "minutes": 29,
+      "score": 4
+    },
+    {
+      "id": "service7-3-1",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-07-28",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 28,
+      "score": 2
+    },
+    {
+      "id": "service7-3-2",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-07-29",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "completed",
+      "minutes": 30,
+      "score": null
+    },
+    {
+      "id": "service7-3-3",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-07-30",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 37,
+      "score": 3
+    },
+    {
+      "id": "service7-3-4",
+      "team": "team7",
+      "resident": "older4",
+      "date": "2026-07-31",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 43,
+      "score": null
+    },
+    {
+      "id": "service7-3-5",
+      "team": "team7",
+      "resident": "older5",
+      "date": "2026-08-01",
+      "participants": [
+        "worker7-2",
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": 2
+    },
+    {
+      "id": "service7-3-6",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-08-02",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 51,
+      "score": 5
+    },
+    {
+      "id": "service7-3-7",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-07-27",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 65,
+      "score": 3
+    },
+    {
+      "id": "service7-3-8",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-07-28",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": 4
+    },
+    {
+      "id": "service7-3-9",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-07-29",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 5
+    },
+    {
+      "id": "service7-4-0",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-08-03",
+      "participants": [
+        "worker7-0",
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 4
+    },
+    {
+      "id": "service7-4-1",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-08-04",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": 4
+    },
+    {
+      "id": "service7-4-2",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-08-05",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "completed",
+      "minutes": 46,
+      "score": null
+    },
+    {
+      "id": "service7-4-3",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-08-06",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 4
+    },
+    {
+      "id": "service7-4-4",
+      "team": "team7",
+      "resident": "older4",
+      "date": "2026-08-07",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 23,
+      "score": 3
+    },
+    {
+      "id": "service7-4-5",
+      "team": "team7",
+      "resident": "older5",
+      "date": "2026-08-08",
+      "participants": [
+        "worker7-2",
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": null
+    },
+    {
+      "id": "service7-4-6",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-08-09",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 57,
+      "score": 4
+    },
+    {
+      "id": "service7-4-7",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-08-03",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 28,
+      "score": 3
+    },
+    {
+      "id": "service7-4-8",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-08-04",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "completed",
+      "minutes": 28,
+      "score": 4
+    },
+    {
+      "id": "service7-4-9",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-08-05",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 28,
+      "score": null
+    },
+    {
+      "id": "service7-5-0",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-08-10",
+      "participants": [
+        "worker7-0",
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 40,
+      "score": 4
+    },
+    {
+      "id": "service7-5-1",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-08-11",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 28,
+      "score": null
+    },
+    {
+      "id": "service7-5-2",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-08-12",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "completed",
+      "minutes": 51,
+      "score": 4
+    },
+    {
+      "id": "service7-5-3",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-08-13",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": null
+    },
+    {
+      "id": "service7-5-4",
+      "team": "team7",
+      "resident": "older4",
+      "date": "2026-08-14",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 57,
+      "score": 2
+    },
+    {
+      "id": "service7-5-5",
+      "team": "team7",
+      "resident": "older5",
+      "date": "2026-08-15",
+      "participants": [
+        "worker7-2",
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 50,
+      "score": 2
+    },
+    {
+      "id": "service7-5-6",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-08-16",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 49,
+      "score": 5
+    },
+    {
+      "id": "service7-5-7",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-08-10",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "interrupted",
+      "minutes": 34,
+      "score": 3
+    },
+    {
+      "id": "service7-5-8",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-08-11",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "interrupted",
+      "minutes": 48,
+      "score": 3
+    },
+    {
+      "id": "service7-5-9",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-08-12",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 44,
+      "score": 5
+    },
+    {
+      "id": "service7-6-0",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-08-17",
+      "participants": [
+        "worker7-0",
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 21,
+      "score": null
+    },
+    {
+      "id": "service7-6-1",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-08-18",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 64,
+      "score": 4
+    },
+    {
+      "id": "service7-6-2",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-08-19",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "completed",
+      "minutes": 52,
+      "score": 4
+    },
+    {
+      "id": "service7-6-3",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-08-20",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 29,
+      "score": null
+    },
+    {
+      "id": "service7-6-4",
+      "team": "team7",
+      "resident": "older4",
+      "date": "2026-08-21",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 40,
+      "score": 2
+    },
+    {
+      "id": "service7-6-5",
+      "team": "team7",
+      "resident": "older5",
+      "date": "2026-08-22",
+      "participants": [
+        "worker7-2",
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 38,
+      "score": 4
+    },
+    {
+      "id": "service7-6-6",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-08-23",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 56,
+      "score": 5
+    },
+    {
+      "id": "service7-6-7",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-08-17",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 56,
+      "score": 4
+    },
+    {
+      "id": "service7-6-8",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-08-18",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": 4
+    },
+    {
+      "id": "service7-6-9",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-08-19",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 33,
+      "score": 5
+    },
+    {
+      "id": "service7-7-0",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-08-24",
+      "participants": [
+        "worker7-0",
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 60,
+      "score": 2
+    },
+    {
+      "id": "service7-7-1",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-08-25",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 59,
+      "score": 4
+    },
+    {
+      "id": "service7-7-2",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-08-26",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "interrupted",
+      "minutes": 46,
+      "score": null
+    },
+    {
+      "id": "service7-7-3",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-08-27",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 31,
+      "score": 4
+    },
+    {
+      "id": "service7-7-4",
+      "team": "team7",
+      "resident": "older4",
+      "date": "2026-08-28",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 62,
+      "score": 5
+    },
+    {
+      "id": "service7-7-5",
+      "team": "team7",
+      "resident": "older5",
+      "date": "2026-08-29",
+      "participants": [
+        "worker7-2",
+        "worker0-0"
+      ],
+      "status": "completed",
+      "minutes": 39,
+      "score": 5
+    },
+    {
+      "id": "service7-7-6",
+      "team": "team7",
+      "resident": "older0",
+      "date": "2026-08-30",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 37,
+      "score": 3
+    },
+    {
+      "id": "service7-7-7",
+      "team": "team7",
+      "resident": "older1",
+      "date": "2026-08-24",
+      "participants": [
+        "worker7-1"
+      ],
+      "status": "completed",
+      "minutes": 26,
+      "score": null
+    },
+    {
+      "id": "service7-7-8",
+      "team": "team7",
+      "resident": "older2",
+      "date": "2026-08-25",
+      "participants": [
+        "worker7-2"
+      ],
+      "status": "interrupted",
+      "minutes": 28,
+      "score": 4
+    },
+    {
+      "id": "service7-7-9",
+      "team": "team7",
+      "resident": "older3",
+      "date": "2026-08-26",
+      "participants": [
+        "worker7-0"
+      ],
+      "status": "completed",
+      "minutes": 58,
+      "score": 3
+    }
+  ],
+  "reporting": [
+    {
+      "id": "gap",
+      "team": "team2",
+      "start": "2026-07-20",
+      "end": "2026-07-27",
+      "complete": false
+    }
+  ]
+}

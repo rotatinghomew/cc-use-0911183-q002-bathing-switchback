@@ -1,0 +1,16 @@
+[
+  {
+    "id": "t1",
+    "course": "c1",
+    "person": "p3",
+    "attended": true,
+    "hours": 4
+  },
+  {
+    "id": "t2",
+    "course": "c1",
+    "person": "p1",
+    "attended": false,
+    "hours": 0
+  }
+]
