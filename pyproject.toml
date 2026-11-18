@@ -4,3 +4,13 @@ version = "0.1.0"
 description = "轮换培训的延续效应与养老助浴扩训决策的业务数据服务"
 requires-python = ">=3.11"
 dependencies = ["numpy==2.2.6", "scipy==1.15.3"]
+
+[build-system]
+requires = ["setuptools==75.8.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["rotation"]
+
+[tool.unittest]
+start-directory = "tests"
